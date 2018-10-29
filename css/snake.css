@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+h1,p{
+	text-align: center;
+}
+#main{
+	/*width: 500px;
+	height: 500px;*/
+	margin: 0 auto;
+	background-color: black;
+}
+#main>.row{
+	display: flex;
+}
+.row>.cell{
+	border: 1px solid white;
+	box-sizing: border-box;
+	/*display: flex;*/
+}
+.row>.active{
+	background-color: red;
+}
