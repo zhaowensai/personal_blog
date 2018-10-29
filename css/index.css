@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+
+    background: url("../image/cea45fa6607f7cfb5570da1eb578f4ac.jpg");clear:both;
+}
+#header ul{
+    /*background: chocolate;*/
+    display: inline-block;
+}
+#header>ul>li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    background: grey;
+    margin-left: 12px;
+    border: 1px solid black;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
